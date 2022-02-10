@@ -51,7 +51,3 @@ func main() {
 		}
 	}
 }
-
-func test() {
-
-}
