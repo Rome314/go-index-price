@@ -86,6 +86,7 @@ func (s *Subscriber) start(ctx context.Context, cancel context.CancelFunc, ticke
 				Ticker: ticker,
 				Time:   timestamp,
 				Price:  sumPrices / sumWeights,
+				// For index volume it is overall volume from all exchanges
 				Volume: totalVolume,
 			}
 		case err := <-s.errors[ticker]:
