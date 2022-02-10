@@ -1,4 +1,4 @@
-# Index price calculater  
+# Index price calculator  
 This program implementing composite index for ticker from different sources  
 
 ## Description
