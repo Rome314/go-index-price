@@ -3,8 +3,10 @@ This program implementing composite index for ticker from different sources
 
 ##Description
 I chose a [weighted arithmetic mean](https://en.wikipedia.org/wiki/Weighted_arithmetic_mean) as the algorithm for calculating the index price per coin.  
+
 The main idea of such a solution:  
-`An exchange where a larger trading volume provides the most fair price`
+`An exchange where a larger trading volume provides the most fair price`  
+
 As far as I understand, the same approach is used by the [.BXBT](https://www.bitmex.com/app/index/.BXBT) composite index on the [BitMex](https://www.bitmex.com/) exchange      
   
   
